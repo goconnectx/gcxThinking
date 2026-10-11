@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  systemone-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: systemone-go:latest
